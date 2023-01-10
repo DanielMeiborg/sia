@@ -3,8 +3,8 @@ title: Theorie SIA-Arbeit
 subtitle: ENTROPIE EINES WIRTSCHAFTSSYSTEMS
 author: Daniel Meiborg
 date: Januar 2023
-bibliography: [./main.bib]
-csl: ieee-with-url.csl
+bibliography: [../main.bib]
+csl: ../ieee-with-url.csl
 link-citations: true
 documentclass: article
 fontsize: 12pt
@@ -89,7 +89,7 @@ Systems.
 
 Nehmen wir wieder das Beispiel mit der Münze: Bei der fairen Münze ist die
 Entropie $\frac{1+1}{2} = 1$ Bit. Bei der nicht-fairen Münze ist die Entropie
-$\frac{1,585 \cdot 1/3 + 0,585 \cdot 2/3}{2} \approx 0,459$ Bit. Die Entropie
+$1,585 \cdot 1/3 + 0,585 \cdot 2/3 \approx 0,918$ Bit. Die Entropie
 ist also niedriger als bei der Einheitsverteilung. Diese Tatsache gilt für alle
 Wahrscheinlichkeiten i.e. die Einheitsverteilung hat immer die höchste Entropie.
 Verteilungen, bei denen nur ein einziger Zustand möglich ist, haben die
@@ -135,8 +135,7 @@ $\vec{P}(t + 1) = A\vec{P}(t)$.
 
 Die stationäre Wahrscheinlichkeitsverteilung eines Markov-Prozesses ist die
 Verteilung $\vec{P}$, die erfüllt, dass $\vec{P} = A\vec{P}$. Die stationäre
-Verteilung ist ein Gleichgewichtszustand des Prozesses. $\vec{P}$ ist also ein
-Eigenvektor von $A$ mit Eigenwert $1$.
+Verteilung ist ein Gleichgewichtszustand des Prozesses.
 
 # Zweiter Hauptsatz der Thermodynamik
 
